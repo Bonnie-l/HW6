@@ -1,0 +1,43 @@
+/*
+ Author: Bonnie Liu
+Email:yueying_liu@student.uml.edu
+Student_id: 01661781
+ */
+
+button{
+   margin-left:6.8%;
+}
+
+p{
+    display: inline;
+    color:red;
+}
+
+#new_table{
+    outline: 3px solid gray;
+    border: 1px solid black;
+    outline-offset: 5px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    outline-style: ridge;
+}
+td{
+  padding: 8px;
+  text-align: center;
+}
+tr:nth-child(1), td:nth-child(1)
+{
+  background-color: black;
+  color: #FFC75E;
+}
+tr:nth-child(2n+3) td:nth-child(2n+2), tr:nth-child(2n+2) td:nth-child(2n + 3)
+{
+  background-color:#FFC75E;
+}
+
+#table{
+    padding: 10px;
+    height: 350px;
+    margin: auto;
+}

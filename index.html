@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Author: Bonnie Liu
+    Email:yueying_liu@student.uml.edu
+    Student_id: 01661781
+    Assigenment6: In this assigenment, we need use javascript to create an interactive dynamic table 
+ -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HW6</title>
+        <!-- Latest compiled and minified CSS -->
+       <!-- Bootstrap CSS -->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- stylesheets-->
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- scripts -->
+        <!-- script type=”text/javascript”src="http://url/to/file.js"-->
+    </head>
+    <body>
+        <div class = "container">
+            <h1>Dynamic Table</h1>
+        <div class="row col-md-6">
+            <form>
+            <div class="form-group">
+                <label for="Hoz_axis">Enter horizontal axis bounding numbers. Order does not matter.</label>
+                <input type="text" class="form-control" id="Hoz_axis1" placeholder="number"><p id="e1"></p>
+                <br>
+                <input type="text" class="form-control" id="Hoz_axis2" placeholder="number"><p id="e2"></p>
+            </div>
+            <div class="form-group">
+                <label for="Ver_axis">Enter vertical axis bounding numbers. Order does not matter.</label>
+                <input type="text" class="form-control" id="Ver_axis1" placeholder="number"><p id="e3"></p>
+                <br>
+                <input type="text" class="form-control" id="Ver_axis2" placeholder="number"><p id="e4"></p>
+            </div>
+            </form>
+        </div>
+        </div>
+    <button type="submit" class="btn btn-dark" onclick="dynamic_table()">Process</button>
+    <div id = "table"></div>
+    <script src="js/javascript.js"></script>
+    </body>
+    </html>
